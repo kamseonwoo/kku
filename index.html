@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글 작성 기능</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>글 작성 기능</h1>
+    <form id="postForm">
+        <textarea id="postContent" placeholder="여기에 글을 작성하세요..." rows="4" cols="50"></textarea><br>
+        <button type="button" onclick="submitPost()">제출</button>
+    </form>
+    <div id="posts">
+        <!-- 작성된 글이 여기에 표시됩니다 -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
